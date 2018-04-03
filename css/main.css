@@ -1,0 +1,169 @@
+.page-content{
+	padding-top: 155px;	
+}
+.no-padding {
+	padding: 0px;
+}
+.no-margin {
+	margin:0px;
+}
+/** navbar start **/
+.sticky {
+  z-index:1000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+	background-color: #ffffff;
+}
+
+
+.nav-right-side{
+	float:right;
+}
+
+.nav-brand{
+	width: 180px;
+	height: 155px;
+	float:right; 
+	margin: 0;
+    padding: 25px;
+    color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 77px;
+ 
+}
+
+
+
+nav {
+  float: right;
+}
+
+nav ul li {
+	
+  float: right; 
+  margin-right: 6%;
+  font-size: 2vw;
+  
+}
+nav ul li a {
+  color: #433;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.56vw;
+  font-weight: bold;
+  padding-bottom: .5em;
+  transition: .10s color;
+}
+nav ul li a:hover {
+  color: #6fb681;
+  border-bottom: 3px solid #6fb681;
+  text-decoration: none;
+}
+nav ul li a:active {
+	 border-bottom: 3px solid #6fb681;
+	 color: #6fb681;	
+}
+#home {
+	    margin-right: -70px;
+}
+/** navbar end **/
+
+
+/** carousel start **/
+.carousel-img{
+	position: relative;
+}
+.carousel-content {
+    background-color: rgba(237, 239, 242, 0.5);
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    bottom: 13%;
+    left: 18%;
+    z-index: 20;
+    color: black;
+}
+
+.carousel-content p {
+	width: 100%;
+    word-wrap: break-word;
+	padding: 20px 20px 0 20px;
+}
+
+.carousel-content h1 {
+	padding-right: 20px;
+}
+
+.carousel-content a {
+	font-weight: bolder;
+	padding-right: 20px;
+}
+
+/** carousel end **/
+/** sec3 our vision start **/
+.sec3 {
+	background-color: #d2d4d8;
+	height:300px;
+	width: 100%;
+}
+
+.video-display {
+	height: 280px;
+	width: 500px;
+	float: none;
+	margin: 0 auto;
+
+	
+}
+
+.sec3-leftside {
+    height: 100%;
+    text-align: right;
+    font-size: 22px;
+}
+
+sec3-btn{
+	float: left;
+	
+}
+
+/** sec3 our vision end **/
+/** sec4 our services start **/
+.sec4-services{
+	height: 800px;
+	margin: 0 auto;
+	float: none;
+}
+
+/** sec4 our services start **/
+.sec4-h1 {
+	text-align: center;
+	padding:  10px 0  10px 0;
+}
+
+.service-card{
+	    border: solid 2px gainsboro;
+}
+
+
+.sec4-card-img {
+	width:100%;
+}
+
+.sec4-services p {
+	    width: 100%;
+    word-wrap: break-word;
+}
+
+.down-card {
+	    top: 10px;
+}
