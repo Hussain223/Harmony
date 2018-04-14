@@ -1,4 +1,13 @@
+/*
+BACKGROUND COLORS
+Green Background    #70B683
+Gray Background      #F5F5F5
+Brown Background   #4C3320
 
+FONT COLORS
+Font color  #323332
+Green font #70B683
+*/
 .sec-h1{
 	text-align: center;
 	padding-top: 20px;
@@ -70,6 +79,8 @@ nav ul li a:active {
 /** navbar end **/
 
 /** carousel start **/
+.carousel-control{
+}
 .carousel-img{
 	position: relative;
 }
@@ -107,7 +118,8 @@ nav ul li a:active {
 	height: 280px;
 	width: 500px;
 	float: none;
-	margin: 0 auto;
+	margin-top: 10px;
+	margin-right: 60px;
 }
 .sec3-leftside {
 	height: 100%;
@@ -170,7 +182,7 @@ sec3-btn{
 
 /** sec5 Projects start **/
 .nav-tabs li a {
-	margin-left: 40px;
+	margin-left: 50px;
 }
 .tabs-container ul {
 	margin: 0 auto;
@@ -258,6 +270,31 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 
 }
 /*FILTER END*/
+/*Cards Style Start*/
+.cardCat{
+	text-align: center;
+	width: 80px;
+	height: 20px;
+	display: block;
+	background: white;
+}
+.newscard-container{
+	padding-bottom: 20px;
+}
+.news-rightSide{
+	float: right;
+}
+.news-rightSide img{
+	float: left;
+}
+.news-leftSide{
+	float: left;
+}
+.news-leftSide{
+	padding-left: 100px;
+}
+
+/*Cards Style End*/
 
 /** sec5 News end **/
 
