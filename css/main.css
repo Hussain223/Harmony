@@ -8,7 +8,7 @@ FONT COLORS
 Font color  #323332
 Green font #70B683
 */
-.sec-h1{
+.sec-h2{
 	text-align: center;
 	padding-top: 20px;
 }
@@ -77,14 +77,13 @@ nav ul li a:active {
 	margin-right: -70px;
 }
 /** navbar end **/
-
+/*sec1 Start*/
 /** carousel start **/
-.carousel-control{
-}
-.carousel-img{
+.carouselImg{
+	width:100%;
 	position: relative;
 }
-.carousel-content {
+.carouselContent {
 	background-color: rgba(237, 239, 242, 0.5);
 	width: 400px;
 	height: 380px;
@@ -94,78 +93,113 @@ nav ul li a:active {
 	z-index: 20;
 	color: black;
 }
-.carousel-content p {
+.carouselContent p {
 	width: 100%;
 	word-wrap: break-word;
 	padding: 20px 20px 0 20px;
 }
-.carousel-content h1 {
+.carouselContent h2 {
 	padding-right: 20px;
 }
-.carousel-content a {
+.carouselContent a {
 	font-weight: bolder;
 	padding-right: 20px;
 }
 /** carousel end **/
-/** sec3 our vision start **/
-.sec3 {
-	background-color: #d2d4d8;
-	height:300px;
-	width: 100%;
+/*sec1 end*/
+
+/** sec2 our vision start **/
+.sec2 {
+	background-color: #70B683;
+	height: 100%;
 }
-.video-display {
+.videoDisplay {
 	display:block;
 	height: 280px;
-	width: 500px;
 	float: none;
-	margin-top: 10px;
-	margin-right: 60px;
+	padding: 0px;
 }
-.sec3-leftside {
+.sec2LeftSide {
 	height: 100%;
 	text-align: right;
 	font-size: 22px;
+	color: white;
+	padding: 90px 50px 0px 90px;
 }
-sec3-btn{
+.sec2RightSide{
+	padding: 40px;
+}
+.sec2Btn{
 	float: left;
+	width: 140px;
+	height: 40px;
+	background-color: #70B683;
+	color: white;
+	border: 2px solid white;
+	font-size: 20px;
 }
-/** sec3 our vision end **/
+/** sec2 our vision end **/
 
-/** sec4 our services start **/
-.sec4-services{
-	margin: 0 auto;
-	float: none;
+/** sec3 our services start **/
+.sec3{
+	height: 100%;
+	padding-bottom: 25px;
+	background-color: white;
 }
-/** sec4 our services start **/
-.service-card{
+.serviceCard{
 	border: solid 2px gainsboro;
 }
-.sec4-card-img {
+.sec3CardImg {
 	width:100%;
 }
-.sec4-services p {
-	width: 100%;
+.sec3Services p {
 	word-wrap: break-word;
 }
-.down-card {
-	top: 10px;
+.downCard {
+	margin-top: 10px;
 }
-/** sec4 our services end **/
+.rightCard{
+	margin-left: 10px;
+}
+.leftCard{
+	float: right;
+	margin-right: 10px;
+}
+.moreBtn {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	color: black;
+	background-color: transparent;
+	border: 2px solid black;
+	font-size: 16px;
+}
+/** sec3 our services end **/
 
-/** sec5 Competetions start **/
+/** sec4 Competetions start **/
+.sec4{
+	background-color: #F5F5F5;
+	padding-bottom: 25px;
+}
 .card {
 	border: 1px solid #bbbbbb;
 }
-.cardText {
+.competitionCardsContainer{
+	float: none;
+	margin: 0 auto;
+}
+.cardTText {
 	width: 100%;
 	word-wrap: break-word;
 }
-.cardImg-container {
+.cardImgContainer {
 	width:100%;
 }
 .cardImg {
 	width: 100%;
-	height: 300px;
 }
 .cardText {
 	padding: 10px;
@@ -178,23 +212,27 @@ sec3-btn{
 .cardBtn{
 	padding-bottom: 10px;
 }
-/** sec5 Competetions end **/
+/** sec4 Competetions end **/
 
 /** sec5 Projects start **/
-.nav-tabs li a {
-	margin-left: 50px;
+.sec5{
+	background-color: #4C3320;
+	padding-bottom: 25px;
 }
-.tabs-container ul {
+.nav-tabs li a {
+	margin-left: 80px;
+}
+.tabsContainer ul {
 	margin: 0 auto;
 	float: none;
 }
-.tabs-container {
+.tabsContainer {
 	padding-top: 10px;
 }
-.tabs-upperRow{
+.tabsUpperRow{
 	padding-top: 25px;
 }
-.tabs-downRow{
+.tabsDownRow{
 	margin-top: 25px;
 }
 .nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover{
@@ -203,38 +241,51 @@ sec3-btn{
 }
 .nav-tabs {
 	border-bottom: none;
+	float: none;
+	margin:0 auto;
 }
 .projectCard{
-	background-color: gray;
+	background-color:  #70B683;
 	height: 325px;
 }
 /** sec5 Projects end **/
 
-/** sec5 News start **/
+/** sec6 News start **/
 
 /*FILTER START*/
+.sec6 {
+	padding-bottom: 25px;
+	background: #70B683;
+}
 .filter-container {
 	width:100%;
 	margin:0 auto;
-	background: #eee;
 	overflow: hidden;
+
 }
 input[type="radio"] {
 
 	display:none;
 }
 label {
-
 	text-align:center;
-	background:#ffffff;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	background: transparent;
 	color:#222222;
 	padding:0.5%;
 	margin-bottom:30px;
 	cursor:pointer;
 }
+input[type="radio"][id="all"]:checked + label {
+	color: yellow;
+	border-bottom: 2px solid yellow;
+}
 input[type="radio"][id="conferenceCard"]:checked + label {
-	background:#6666ff;
+	color: yellow;
+	border-bottom: 2px solid yellow;
+}
+input[type="radio"][id="conferenceCard"]:checked + label {
+	color: yellow;
+	border-bottom: 2px solid yellow;
 }
 input[type="radio"][id="conferenceCard"]:checked ~ .pressCard, input[type="radio"][id="conferenceCard"]:checked ~ .newsCard {
 	width:0;
@@ -244,7 +295,8 @@ input[type="radio"][id="conferenceCard"]:checked ~ .pressCard, input[type="radio
 	opacity:0;
 }
 input[type="radio"][id="pressCard"]:checked + label {
-	background:#ff4466;
+	color: yellow;
+	border-bottom: 2px solid yellow;
 }
 input[type="radio"][id="pressCard"]:checked ~ .conferenceCard, input[type="radio"][id="pressCard"]:checked ~ .newsCard {
 	width:0;
@@ -254,7 +306,8 @@ input[type="radio"][id="pressCard"]:checked ~ .conferenceCard, input[type="radio
 	opacity:0;
 }
 input[type="radio"][id="newsCard"]:checked + label {
-	background:#66dd99;
+	color: yellow;
+	border-bottom: 2px solid yellow;
 }
 input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"][id="newsCard"]:checked ~ .pressCard {
 	width:0;
@@ -296,9 +349,9 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 
 /*Cards Style End*/
 
-/** sec5 News end **/
+/** sec6 News end **/
 
-/** sec5 Footer start **/
+/** Footer start **/
 .footer {
 	padding-top: 30px;
 	height:200px;
@@ -312,4 +365,4 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 }
 
 
-/** sec5 footer end **/
+/** footer end **/
