@@ -21,6 +21,18 @@ Green font #70B683
 .page-content {
 	padding-top: 160px;
 }
+.othersBtn {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	color: black;
+	background-color: transparent;
+	border: 1px solid black;
+	font-size: 16px;
+}
 
 /** navbar start **/
 .sticky {
@@ -167,18 +179,6 @@ nav ul li a:active {
 	float: right;
 	margin-right: 10px;
 }
-.moreBtn {
-	display: block;
-	float: none;
-	margin: 0 auto;
-	width: 150px;
-	height: 40px;
-	margin-top: 20px;
-	color: black;
-	background-color: transparent;
-	border: 2px solid black;
-	font-size: 16px;
-}
 .advisoryBtn{
 	width: 100%;
 	background: transparent;
@@ -310,15 +310,23 @@ nav ul li a:active {
 	padding-bottom: 10px;
 	color: white;
 }
+.sec5 .othersBtn{
+	border: 1px solid white;
+	color: white;
+}
+
 /** sec5 Projects end **/
 
 /** sec6 News start **/
-
-/*FILTER START*/
 .sec6 {
 	padding-bottom: 25px;
 	background: #70B683;
+	color: white;
 }
+.sec6 a{
+	color: white;
+}
+/*FILTER START*/
 .filter-container {
 	width:100%;
 	margin:0 auto;
@@ -384,6 +392,9 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 	transition:all 0.5s;
 
 }
+.filterBtn{
+	color: white;
+}
 /*FILTER END*/
 /*Cards Style Start*/
 .cardCat{
@@ -392,6 +403,7 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 	height: 20px;
 	display: block;
 	background: white;
+	color: black;
 }
 .newscard-container{
 	padding-bottom: 20px;
@@ -408,6 +420,10 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 .news-leftSide{
 	padding-left: 100px;
 }
+.sec6 .othersBtn{
+	border: 1px solid white;
+	color: white;
+}
 
 /*Cards Style End*/
 
@@ -419,8 +435,12 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 	padding: 30px 0px 30px 0px;
 	height:100%;
 }
+.footer {
+	color: #a4a6a8;
+}
 .footerRightSide .footerLinks a{
 	padding: 15px 0px 0px 15px;
+	color: #a4a6a8;
 }
 .footerRightSide{
 	padding: 30px 30px 0px 0px;
@@ -428,8 +448,29 @@ input[type="radio"][id="newsCard"]:checked ~ .conferenceCard, input[type="radio"
 .footerLeftSide{
 	text-align: center;
 }
-.followUS{
+.followUs{
 	padding-top: 20px;
+}
+.ytIcon{
+	padding-right: 20px;
+}
+.fbIcon{
+	padding-right: 20px;
+}
+.footerLinks{
+	padding-top: 
+}
+.subscribeBtn{
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 180px;
+	height: 40px;
+	margin-top: 20px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	font-size: 16px;
 }
 
 
